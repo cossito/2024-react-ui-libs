@@ -8,16 +8,18 @@ const Cadastro: React.FC = () => {
 
   return (
     <div>
-        <Main>
+        <Main fill="vertical" background="url(src/assets/rena.jpg)">
             <PageHeader
                 title="Cadastro"
                 margin={{vertical: "0", horizontal: "auto"}}
             />
             <Box    pad='medium'
+                    background="white"
                     border={{ color: 'brand', size: 'medium' }}
                     align='center'
                     alignSelf='center'
                     width='medium'
+                    margin={{bottom: "xlarge"}}
                     >
                 <Form>
                     <FormField name="name" htmlFor="nome" label="Nome">

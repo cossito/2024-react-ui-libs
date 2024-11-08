@@ -8,17 +8,19 @@ const Login: React.FC = () => {
 
   return (
     <div>
-        <Main>
+        <Main fill="vertical" background="url(src/assets/rena.jpg)">
             <PageHeader
                 title="Login"
                 margin={{vertical: "0", horizontal: "auto"}}
             />
             <Box    
                 pad='medium'
+                background='white'
                 border={{ color: 'brand', size: 'medium' }}
                 align='center'
                 alignSelf='center'
                 width='medium'
+                margin={{bottom: "xlarge"}}
             >
                 <Form>
                     <FormField name="name" htmlFor="text-input-id" label="Nome">
