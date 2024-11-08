@@ -8,9 +8,10 @@ const Cadastro: React.FC = () => {
 
   return (
     <div>
-        <Main fill="vertical" background="url(src/assets/rena.jpg)">
+        <Main fill="vertical" background="url(src/assets/rena2.jpg)">
             <PageHeader
                 title="Cadastro"
+                background='white'
                 margin={{vertical: "0", horizontal: "auto"}}
             />
             <Box    pad='medium'
